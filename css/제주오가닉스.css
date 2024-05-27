@@ -145,40 +145,52 @@ body {
     font-weight: 300;
 }
 .section01 {
-    
+    width: 1200px;
     margin: 0 auto;
 
+}
+.section01 p {
+    font-size: 14px;
+    color: rgb(247, 5, 5);
+    margin-top: 150px;
 }
 .section01 h1 {
     font-size: 48px;
     margin-bottom: 80px;
     font-family: 'Pretendard-Regular';
-    text-align: center;
-    font-weight: 100;
-    margin-top: 150px;
-    color: rgb(245, 8, 8);
+    margin-top: 10px;
+    font-weight: 600;
+    
+    color: #333;
+    
 }
 .section01 .item01 {
-    width: 800px;
+    width: 100%;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     
     
+    
 }
 .section01 .item01 div {
-    width: 170px;
-    
+    width: 280px;
     margin-bottom: 20px;
-    
+    overflow: hidden;
+    border-radius: 20%;
 }
 .section01 .item01 div img {
     width: 100%;
-    height: 170px;
+    height: 280px;
     object-fit: cover;
     border-radius: 20%;
+    transition: 3s;
 }
+.section01 .item01 div:hover img {
+    transform: scale(1.1);
+}
+
 .section02 {
     width: 1920px;
     margin: 0 auto;
@@ -196,14 +208,18 @@ body {
     margin: 0 auto;
     
     }
-
+.section03 p {
+    font-size: 14px;
+    margin-top: 150px;
+    color: rgb(245, 8, 8);
+}
 .section03 h1 {
     font-size: 48px;
-    margin-top: 150px;
+    
     font-family: 'Pretendard-Regular';
-    text-align: center;
+    
     font-weight: 600;
-    color: rgb(245, 8, 8);
+    
 }
 .section03 .cont03 {
     width: 1200px;
@@ -220,12 +236,15 @@ body {
     height: 280px;
     display: flex;
     justify-content: space-between;
+    overflow: hidden;
+    border-radius: 50px;
     
     
 }
 .section03 .cont03 .item03 .image03 {
     width: 280px;
     height: 280px;
+    
 
     
 
@@ -234,7 +253,8 @@ body {
     width: 280px;
     height: 280px;
     object-fit: cover;
-    border-radius: 10%;
+    border-radius: 50px;
+    transition: 3s;
 }
 .section03 .cont03 .item03 .text03 {
     width: 280px;
@@ -253,18 +273,29 @@ body {
     font-family: 'Pretendard-Regular';
    
 }
+.section03 .item03 div:hover img {
+    transform: scale(1.1);
+}
 .section04 {
     width: 1200px;
     
     margin: 0 auto;
+    
+}
+.section04 p {
+    width: 100%;
+    margin-top: 150px;
+    color: rgb(245, 8, 8);
+    font-size: 14px;
+
 }
 .section04 h1 {
     font-size: 48px;
-    margin-top: 150px;
+    margin-bottom: 50px;
     font-family: 'Pretendard-Regular';
-    text-align: center;
+    
     font-weight: 600;
-    color: rgb(245, 8, 8);
+    color:#333;
 }
 .section04 .cont04 {
     width: 1200px;
@@ -286,7 +317,8 @@ body {
 .section04 .cont04 .item04 .image04 {
     width: 280px;
     height: 280px;
-    
+    overflow: hidden;
+    border-radius: 10%;
 
 }
 .section04 .cont04 .item04 .image04 img {
@@ -294,6 +326,7 @@ body {
     height: 280px;
     object-fit: cover;
     border-radius: 10%;
+    transition: 3s;
 }
 .section04 .cont04 .item04 .text04 {
     width: 280px;
@@ -310,7 +343,9 @@ body {
     font-size: 24px;
     font-family: 'Pretendard-Regular';
 }
-
+.section04 .cont04 .item04:hover .image04 img {
+    transform: scale(1.1);
+}
 .section05 {
     width: 1200px;
     margin: 0 auto;
@@ -344,8 +379,12 @@ body {
     width: 100%;
     height: 180px;
     border-radius: 5%;
+    transition: 3s;
 }
 
+.section05 .cont05 div:hover img {
+    transform: rotateY(720deg);
+}
 .section06 {
     width: 1920px;
     margin: 0 auto;
